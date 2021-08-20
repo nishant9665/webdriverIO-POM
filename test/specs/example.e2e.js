@@ -64,7 +64,6 @@ describe('My Login application', () => {
 }),
     after(async () => {  
         console.log("log out screen")
-    // await browser.
     await HomePage.click_OnAccount();
     await HomePage.click_OnLogout();
         
