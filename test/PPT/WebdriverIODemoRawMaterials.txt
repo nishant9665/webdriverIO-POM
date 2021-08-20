@@ -1,0 +1,355 @@
+User ID:nishant123
+Password:test123
+
+
+Q.if you xpath is wrong in js but it work in selenium+java combination.
+Ans :check the xpath in sele+JAVA or add wait in script.
+
+browser.waitUntil(function(){
+   return email.isDisplay()===true
+},6000,'email is not displayed')
+
+
+-----------------
+it('should fetch menu ',  () => {
+
+// navigate to a new URL
+browser.url('https://automationteststore.com/')
+//browser.maximizeWindow()
+
+browser.setTimeout({
+    'pageLoad': 10000,
+    'script': 60000
+})
+
+browser.executeAsync((done) => {
+    console.log("Wake me up before you go!");
+    setTimeout(done, 59000);
+});
+
+const elem = $("//a[normalize-space()='Login or register']")
+browser.waitUntil(function(){
+    return elem.isDisplay()===true
+ },6000,'login button is not displayed')
+
+elem.click()
+
+// receive url
+console.log("this is URL " +browser.getUrl());
+browser.pause(2000);
+    })
+---------------------
+it('should fetch menu ',  () => {
+
+// navigate to a new URL
+browser.url('https://automationteststore.com/')
+//browser.maximizeWindow()
+const elem = $('#customernav')
+
+
+browser.setTimeout({
+    'pageLoad': 10000,
+    'script': 60000
+})
+
+
+browser.waitUntil(function(){
+    return elem.isDisplay() === true
+ },6000,'login button is not displayed')
+
+await browser.waitUntil(
+        async () => (await $('#someText').getDisplayed()) === true,
+        {
+            timeout: 5000,
+            timeoutMsg: 'expected text to be different after 5s'
+        }
+    );
+});
+
+ console.log("Time passssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss")
+//elem.click()
+browser.elementClick(elem);
+
+// receive url
+console.log("this is URL " +browser.getUrl());
+browser.pause(2000);
+    })
+-------------------------
+setValue(), getText() any methods are not working as sync function ... I can only use async ===>> do you know any solution
+-------------------
+id#
+Finding element by id has no specific syntax in WebDriver and one should use either CSS selectors (#<my element ID>) or xPath (//*[@id="<my element ID>"]).
+------------------------------
+1
+
+webdriverio 7 , doesn't support sync operation use :
+
+it('Test 300€ u. 1,5%', async () => {
+
+  let elem= await $("elementlocator")
+  await elem.click()
+}
+you should define it as async and use await
+------------------------------
+Error: Malformed type for "elementId" parameter of command elementClick
+Expected: string
+Actual: object
+
+Ans : to change the elementClick method
+
+------------------
+SyntaxError: await is only valid in async function
+Ans:remove await
+--------------------
+[0-0] Error in "Automation store "
+Error: waitUntil condition failed with the following reason: return value was never truthy
+Ans:Remove await
+-------
+Error: Can't call getText on element with selector "//div[@class="alert alert-error alert-danger"]" because element wasn't found
+AnS:Remove above line which is not call or not active the xpath.
+-----------------------
+You use async, so this tells me you are working with WebdriverIO Async mode. This means, all the functions will mostly return a promise. So proper way of doing it is that you need to await for the browser/element functions:
+
+const pageHeader = await homePage.pageHeader;
+const text = await pageHeader.getText();
+console.log(text);
+Remember, $, $$ and basically any functions of the browser or of the element are promises in async mode, so essentially, you attempted to "getText()" or "click()" on a promise object.
+------------------------------
+
+section#categorymenu>nav>ul>li>a
+
+let menuCard_List = $$("//ul[@class='nav-pills categorymenu']/li/a[contains(text(),'')]")
+menuCard_List.forEach(element => {
+    console.log(element.getText()+"###############")
+});
+----------------------
+ //console.log("this is text i wan found #########################################     :"+await loginErrorMessage.getText());
+
+ //browser.pause(5000)
+ //browser.refresh()
+const texta =await $('//ul[@class="nav-pills categorymenu"]')
+browser.waitUntil(function(){return texta.isDisplay()===true },15000,'Login is not displayed####################################')
+
+console.log("time passs             ############################       "+texta)
+    texta.$$("/li/a").map(function(elementz){
+
+        console.log(elementz.getText());
+})
+------------------------------------------------------------------------------------------
+var WebTable = function(webTable) {
+    this.methods = function() {
+
+    };
+  };
+  this.describegetAllData = function(){
+	return this.webTable.$$("//ul[@class='nav-pills categorymenu']/li/a").getText()
+}
+----------------------------------
+const ut = require("../pageobjects/util")
+
+it('Automation store ', async  () => {
+
+// navigate to a new URL
+await browser.url('https://automationteststore.com/')
+
+await browser.maximizeWindow()
+
+//browser.maximizeWindow()
+const elem = await $('#customernav')
+browser.setTimeout({'pageLoad': 10000,'script': 60000})
+
+
+
+browser.waitUntil(function(){ return elem.isDisplayed() === true },6000,'email is not displayed####################################')
+
+await elem.click()
+
+const loginBtn = await $('//input[@id="loginFrm_loginname"]')
+const passwordBTn = await $('//input[@id="loginFrm_password"]')
+const submitBtn=await $('//button[@type="submit" and @title="Login"]')
+const categoryMenu= await $('//ul[@class="nav-pills categorymenu"]/li/a')
+
+const loginErrorMessage= await $('//div[@class="alert alert-error alert-danger"]')
+//browser.waitUntil(function(){return loginBtn.isDisplay()===true },15000,'Login is not displayed####################################')
+
+
+
+//console.log(await texta.$$('li')[2].$('a').getText());
+
+//ut.useCaseElementText();
+//ut.useCaseElementText();
+
+})
+-----------------------------------------------------
+2021-08-16T12:54:59.766Z INFO webdriver: COMMAND executeScript(<fn>, <object>)
+AnS:Await or Wait isssue
+----------------------------------
+ console.log("this is 2 nd index od text ######################"+textz[2].getText());
+ textz.map(function(elementz){
+    console.log("this is list :"+elementz.getText());
+    
+
+    });
+----------------------
+TypeError: element.then is not a function
+    at C:\Users\nishant.narwade\Desktop\NIshant\WebdriverSetUP\test\specs\FullflowScript.js:42:14
+
+-----------------------
+ textz.forEach(element => {
+     browser.pause(2000)
+     var abc =element.getText()
+     abc.then((value) => {
+        console.log("this is outputx :"+value)
+    });
+ });
+-----------------------
+textz.filter(elementx =>{
+    browser.pause(5000);
+    console.log(elementx.getText());
+})
+--------------------------------
+sync function checkPlaceHolder(){
+
+    listOptions = textz
+   await listOptions.click();
+   for(let i = 0; i < listOptions.length; i++){
+       If(listOptions[i].getText() === "fruit"){
+            listOptions.clearValue();
+            listOptions.setValue("banana");
+            break;
+       }
+   }
+   }
+----------------------
+sync function checkPlaceHolder(){
+   let listOptions = await $$('//ul[@class="nav-pills categorymenu"]/li/a[text()="${nbsp}"]');
+  // await listOptions.click();
+   for(let i = 0; i < listOptions.length; i++){
+      // console.log(listOptions[i].getText());
+     listOptions[i].getText().then((value) => {
+        console.log("this is outputx################################################################ :"+value)
+    });
+       }
+   }
+   checkPlaceHolder(); 
+------------------------
+[0-0] TypeError in "Automation store "
+TypeError: list.length is not a function
+Ans:Remove () bracket
+---------------------------
+
+//section[@id='categorymenu']//ul[@class='nav-pills categorymenu']/li/a
+
+//let list = $$("//section[@id='categorymenu']//ul[@class='nav-pills categorymenu']/li/a"); 
+-------------------------
+code run:::
+
+browser.waitUntil(function(){ return textz.isDisplayed() === true },6000,'email is not displayed####################################') 
+console.log('length is ',textz.length) 
+for(let i=0; i<textz.length; i++){
+    await browser.pause(3000);
+        const elementq =textz[i];
+         elementq.getText().then((val)=>{
+           console.log("Real value is :"+val.trim());
+           let menuName=val.trim();
+           if(menuName === 'FRAGRANCE'){
+             console.log("clicked on men menu-start")
+
+              elementq.click();
+              console.log("clicked on men menu-end")
+           }
+         }).catch((pic)=>{
+             console.log("this is error " ,pic);
+         })
+
+}  
+
+})
+------------------------
+Many time text is not seen at the output so
+Please check the xpath or change the xpath
+--------------------------
+Cannot read property 'click' of undefined
+means:call the method is not properly.
+------------------------
+TypeError: (intermediate value).click is not a function
+means remove await from bracket
+------------------
+ Timeout of 60000ms exceeded.
+means time take too much for load and further process
+check the time realted activity.
+---------------------------
+] (intermediate value).click is not a function means this. take wrong function
+---------------------
+TypeError: Cannot read property 'click' of undefined
+return is not defined.
+-----------------------
+Timeout of 60000ms exceeded.
+means remove unwanted time
+------------------------
+Timeout of 60000ms exceeded. The execution in the test "My Login application Regression Testcases -remove product from cart" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\nishant.narwade\Desktop\NIshant\WebdriverSetUP\test\specs\example.e2e.js)
+
+Ans:increase and decrease the time
+---------------------------------
+TypeError: Tassert.DeepEqual is not a function
+please change the assertion type
+---------------------
+Error: Can't call click on element with selector
+means xapth wrong
+--------------
+0] SyntaxError: await is only valid in async function
+Ans:Remove await from sync function
+-------------
+logic
+
+async addToCart(){
+      //  await browser.pause(2000)
+      const cartMessage = await (await this.ele_outOfstock).getText();
+     // cartMessage.then(async (mesg)=>{
+          if(cartMessage === 'Out of Stock'){
+            assert.fail("out of stock the product")
+          }
+          else{
+            await (await this.ele_addtoCart).click();
+          }
+      //})
+    }
+----------------------------
+before: () => {
+    require('expect-webdriverio');
+    global.wdioExpect = global.expect;
+    global.wdioExpect = global.assert;
+    const chai = require('chai');
+    global.expect = chai.expect;
+    global.assert = chai.assert;
+},
+----------------
+Allure report :
+https://webdriver.io/docs/allure-reporter/
+
+npm install @wdio/allure-reporter --save-dev
+
+search for reporters  in wdio conf file
+reporters
+
+add this
+reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: true,
+    }]]
+
+npm install -g allure-commandline --save-dev
+
+allure generate allure-results/ && allure open
+
+allure generate allure-results/ --clean && allure open
+
+------------------------------------
+Material Icon Theme
+Prettier - Code formatter
+Live Server
+
+
+--------------
+
