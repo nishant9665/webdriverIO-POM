@@ -1,0 +1,48 @@
+{
+  "uid" : "76da7d4ffc36b5f7",
+  "name" : "Regression Testcases - Add two producnt in cart",
+  "fullName" : "My Login application.Regression Testcases - Add two producnt in cart",
+  "historyId" : "946921db16b442af88574e8fa407072d",
+  "time" : {
+    "start" : 1629452155993,
+    "stop" : 1629452155993,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Regression Testcases - Add two producnt in cart"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76da7d4ffc36b5f7.json",
+  "parameterValues" : [ ]
+}

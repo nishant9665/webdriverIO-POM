@@ -1,0 +1,94 @@
+{
+  "uid" : "ea85a972212fb5ab",
+  "name" : "should assert",
+  "fullName" : "Homepage.should assert",
+  "historyId" : "926a5246d766a0e54944b9705fb28270",
+  "time" : {
+    "start" : 1629447971374,
+    "stop" : 1629447980512,
+    "duration" : 9138
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should assert"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2760ee9fbc0f350d",
+      "status" : "broken",
+      "statusDetails" : "$(...).click is not a function",
+      "time" : {
+        "start" : 1629447935589,
+        "stop" : 1629447938720,
+        "duration" : 3131
+      }
+    }, {
+      "uid" : "f19f19e5c4468b5",
+      "status" : "broken",
+      "statusDetails" : "$(...).setValue is not a function",
+      "time" : {
+        "start" : 1629447827888,
+        "stop" : 1629447830457,
+        "duration" : 2569
+      }
+    }, {
+      "uid" : "ebfd98e44f6a76b7",
+      "status" : "broken",
+      "statusDetails" : "$(...).setValue is not a function",
+      "time" : {
+        "start" : 1629447790542,
+        "stop" : 1629447790559,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "5071721dfc3ea24b",
+      "status" : "broken",
+      "statusDetails" : "$(...).setValue is not a function",
+      "time" : {
+        "start" : 1629447715791,
+        "stop" : 1629447715808,
+        "duration" : 17
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea85a972212fb5ab.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

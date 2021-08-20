@@ -1,0 +1,58 @@
+{
+  "uid" : "2760ee9fbc0f350d",
+  "name" : "should assert",
+  "fullName" : "Homepage.should assert",
+  "historyId" : "926a5246d766a0e54944b9705fb28270",
+  "time" : {
+    "start" : 1629447935589,
+    "stop" : 1629447938720,
+    "duration" : 3131
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "$(...).click is not a function",
+  "statusTrace" : "TypeError: $(...).click is not a function\n                    at Context.<anonymous> (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\test\\specs\\sample.js:13:50)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at async Context.testFrameworkFnWrapper (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should assert"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2760ee9fbc0f350d.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

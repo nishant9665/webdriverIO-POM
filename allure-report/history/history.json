@@ -1,0 +1,140 @@
+{
+  "d4311634b38dcb23d4566853f20b3c7a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82ce93f7dfa7fb4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629452127450,
+        "stop" : 1629452155986,
+        "duration" : 28536
+      }
+    } ]
+  },
+  "afdf4c48d4b8aed925a0ffc7492f1264" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fcff34de6512fc64",
+      "status" : "broken",
+      "statusDetails" : "Can't call click on element with selector \"//div[@class='contentpanel']//div[1]//div[2]//a[1]//img[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1629446867141,
+        "stop" : 1629446889732,
+        "duration" : 22591
+      }
+    } ]
+  },
+  "1563d3e339bc87c1af2a3cbb3bba6a88" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff94018ed3b4cb41",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1629452155993,
+        "stop" : 1629452155993,
+        "duration" : 0
+      }
+    } ]
+  },
+  "946921db16b442af88574e8fa407072d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76da7d4ffc36b5f7",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1629452155993,
+        "stop" : 1629452155993,
+        "duration" : 0
+      }
+    } ]
+  },
+  "93e9638c60e43c38ad2df471f4eb5993" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "752c68f09a630e29",
+      "status" : "broken",
+      "statusDetails" : "loginBtn.setValue is not a function",
+      "time" : {
+        "start" : 1629447560138,
+        "stop" : 1629447560426,
+        "duration" : 288
+      }
+    } ]
+  },
+  "c9b3f1db5a40f355df78d6a62d9e1672" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3e094b328678f14",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1629446867139,
+        "stop" : 1629446867139,
+        "duration" : 0
+      }
+    } ]
+  },
+  "926a5246d766a0e54944b9705fb28270" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea85a972212fb5ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629447971374,
+        "stop" : 1629447980512,
+        "duration" : 9138
+      }
+    } ]
+  }
+}

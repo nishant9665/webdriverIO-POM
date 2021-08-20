@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Can't call click on element with selector \"//div[@class='contentpanel']//div[1]//div[2]//a[1]//img[1]\" because element wasn't found",
+      "children" : [ {
+        "name" : "Regression Testcases - Add two producnt in cart",
+        "uid" : "fcff34de6512fc64",
+        "parentUid" : "83989a7e483a60394015b88a7a4d8a7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629446867141,
+          "stop" : 1629446889732,
+          "duration" : 22591
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.131" ]
+      } ],
+      "uid" : "83989a7e483a60394015b88a7a4d8a7f"
+    }, {
+      "name" : "loginBtn.setValue is not a function",
+      "children" : [ {
+        "name" : "Automation store ",
+        "uid" : "752c68f09a630e29",
+        "parentUid" : "f45661d9ebef7966706b8cad61e616a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629447560138,
+          "stop" : 1629447560426,
+          "duration" : 288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.131" ]
+      } ],
+      "uid" : "f45661d9ebef7966706b8cad61e616a8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

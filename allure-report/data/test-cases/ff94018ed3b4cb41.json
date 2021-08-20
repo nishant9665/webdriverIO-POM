@@ -1,0 +1,57 @@
+{
+  "uid" : "ff94018ed3b4cb41",
+  "name" : "Regression Testcases -Flow from login to Payment",
+  "fullName" : "My Login application.Regression Testcases -Flow from login to Payment",
+  "historyId" : "1563d3e339bc87c1af2a3cbb3bba6a88",
+  "time" : {
+    "start" : 1629452155993,
+    "stop" : 1629452155993,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Regression Testcases -Flow from login to Payment"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e6114ca6910fa735",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1629446889734,
+        "stop" : 1629446889734,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff94018ed3b4cb41.json",
+  "parameterValues" : [ ]
+}

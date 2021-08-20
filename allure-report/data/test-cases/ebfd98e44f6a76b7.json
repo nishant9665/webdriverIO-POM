@@ -1,0 +1,58 @@
+{
+  "uid" : "ebfd98e44f6a76b7",
+  "name" : "should assert",
+  "fullName" : "Homepage.should assert",
+  "historyId" : "926a5246d766a0e54944b9705fb28270",
+  "time" : {
+    "start" : 1629447790542,
+    "stop" : 1629447790559,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "$(...).setValue is not a function",
+  "statusTrace" : "TypeError: $(...).setValue is not a function\n                    at Context.<anonymous> (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\test\\specs\\sample.js:5:47)\n                    at Context.executeAsync (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:285:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Homepage"
+  }, {
+    "name" : "testClass",
+    "value" : "Homepage"
+  }, {
+    "name" : "testMethod",
+    "value" : "should assert"
+  }, {
+    "name" : "package",
+    "value" : "Homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ebfd98e44f6a76b7.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

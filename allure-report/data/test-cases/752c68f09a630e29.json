@@ -1,0 +1,100 @@
+{
+  "uid" : "752c68f09a630e29",
+  "name" : "Automation store ",
+  "fullName" : "Automation store -Details.Automation store ",
+  "historyId" : "93e9638c60e43c38ad2df471f4eb5993",
+  "time" : {
+    "start" : 1629447560138,
+    "stop" : 1629447560426,
+    "duration" : 288
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "loginBtn.setValue is not a function",
+  "statusTrace" : "TypeError: loginBtn.setValue is not a function\n                    at Context.<anonymous> (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\test\\specs\\FullflowScript2.js:23:14)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at async Context.testFrameworkFnWrapper (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation store -Details"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation store -Details"
+  }, {
+    "name" : "testMethod",
+    "value" : "Automation store "
+  }, {
+    "name" : "package",
+    "value" : "Automation store -Details"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "24e1bef53d742c97",
+      "status" : "broken",
+      "statusDetails" : "elem.click is not a function",
+      "time" : {
+        "start" : 1629447447734,
+        "stop" : 1629447447771,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "8d9bf71cf1a1fe8d",
+      "status" : "broken",
+      "statusDetails" : "elem.click is not a function",
+      "time" : {
+        "start" : 1629447364566,
+        "stop" : 1629447364591,
+        "duration" : 25
+      }
+    }, {
+      "uid" : "29c3251f7495ec7e",
+      "status" : "broken",
+      "statusDetails" : "elem.click is not a function",
+      "time" : {
+        "start" : 1629447295376,
+        "stop" : 1629447295400,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "91f29bf440eb05fc",
+      "status" : "broken",
+      "statusDetails" : "elem.click is not a function",
+      "time" : {
+        "start" : 1629447256623,
+        "stop" : 1629447256642,
+        "duration" : 19
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "752c68f09a630e29.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

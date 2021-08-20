@@ -1,0 +1,108 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "Regression Testcases - Special offer ",
+      "uid" : "b3e094b328678f14",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1629446867139,
+        "stop" : 1629446867139,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Regression Testcases - Add two producnt in cart",
+      "uid" : "fcff34de6512fc64",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629446867141,
+        "stop" : 1629446889732,
+        "duration" : 22591
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Regression Testcases - Special offer ",
+      "uid" : "82ce93f7dfa7fb4e",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629452127450,
+        "stop" : 1629452155986,
+        "duration" : 28536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    }, {
+      "name" : "Regression Testcases -Flow from login to Payment",
+      "uid" : "ff94018ed3b4cb41",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1629452155993,
+        "stop" : 1629452155993,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Regression Testcases - Add two producnt in cart",
+      "uid" : "76da7d4ffc36b5f7",
+      "parentUid" : "f43874cc36d1c5833cbb332fc53460ce",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1629452155993,
+        "stop" : 1629452155993,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f43874cc36d1c5833cbb332fc53460ce"
+  }, {
+    "name" : "Automation store -Details",
+    "children" : [ {
+      "name" : "Automation store ",
+      "uid" : "752c68f09a630e29",
+      "parentUid" : "fdc3e52f0501961235f3bad2f3d79df1",
+      "status" : "broken",
+      "time" : {
+        "start" : 1629447560138,
+        "stop" : 1629447560426,
+        "duration" : 288
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "fdc3e52f0501961235f3bad2f3d79df1"
+  }, {
+    "name" : "Homepage",
+    "children" : [ {
+      "name" : "should assert",
+      "uid" : "ea85a972212fb5ab",
+      "parentUid" : "bd1e0af0737d1a146d0415a2eeaad9ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629447971374,
+        "stop" : 1629447980512,
+        "duration" : 9138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.131" ]
+    } ],
+    "uid" : "bd1e0af0737d1a146d0415a2eeaad9ba"
+  } ]
+}

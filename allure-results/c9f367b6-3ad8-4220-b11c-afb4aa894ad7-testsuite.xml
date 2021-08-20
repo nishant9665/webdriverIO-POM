@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629447935586' stop='1629447938723'>
+    <name>Homepage</name>
+    <title>Homepage</title>
+    <test-cases>
+        <test-case start='1629447935589' status='broken' stop='1629447938720'>
+            <name>should assert</name>
+            <title>should assert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.131'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>$(...).click is not a function</message>
+                <stack-trace>TypeError: $(...).click is not a function
+                    at Context.&lt;anonymous> (C:\Users\nishant.narwade\Desktop\NIshant\WebdriverSetUP\test\specs\sample.js:13:50)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Context.executeAsync (C:\Users\nishant.narwade\Desktop\NIshant\WebdriverSetUP\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\shim.js:285:16)
+                    at async Context.testFrameworkFnWrapper (C:\Users\nishant.narwade\Desktop\NIshant\WebdriverSetUP\node_modules\@wdio\mocha-framework\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:52:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

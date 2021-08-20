@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript async / await</h2>
+
+<h1 id="demo"></h1>
+
+<script>
+    async function test(){
+      console.log("2 : Message")
+      const response = await fetch("/test/testdata/jsonDataExample.json")
+      console.log("3 : Message") 
+      const students = await response.json();
+
+      return students;
+    }
+      console.log("1 : Message")
+      let a =test();
+      console.log("4 : Message")
+      console.log(a);
+
+</script>
+
+
+</body>
+</html>

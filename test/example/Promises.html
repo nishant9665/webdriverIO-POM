@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript async / await</h2>
+
+<h1 id="demo"></h1>
+<script>
+
+        let complete =true;
+
+        let prom = new Promise(function(resolve ,reject){
+            if(complete){
+                resolve("I am successfull");
+            }
+            else{
+                reject("i'm fail");
+            }
+        })
+        console.log(prom);
+
+</script>
+
+</body>
+</html>

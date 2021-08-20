@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript async / await</h2>
+
+<h1 id="demo"></h1>
+<script>
+
+//setTimeout(function(){ alert("Hello"); }, 3000);
+        let complete =true;
+        
+        let prom = new Promise(function(resolve ,reject){ 
+         
+            console.log("fetching data please wait..")
+
+setTimeout(function(){ 
+        if(complete){
+                      resolve("I am successfully");
+                  }
+                else{
+                reject("i'm fail");
+                } 
+
+           }, 3000);
+
+                
+
+              
+        })
+        console.log(prom);
+
+</script>
+
+</body>
+</html>

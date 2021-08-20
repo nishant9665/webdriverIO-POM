@@ -1,0 +1,71 @@
+[ {
+  "uid" : "b3e094b328678f14",
+  "name" : "Regression Testcases - Special offer ",
+  "time" : {
+    "start" : 1629446867139,
+    "stop" : 1629446867139,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fcff34de6512fc64",
+  "name" : "Regression Testcases - Add two producnt in cart",
+  "time" : {
+    "start" : 1629446867141,
+    "stop" : 1629446889732,
+    "duration" : 22591
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "82ce93f7dfa7fb4e",
+  "name" : "Regression Testcases - Special offer ",
+  "time" : {
+    "start" : 1629452127450,
+    "stop" : 1629452155986,
+    "duration" : 28536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff94018ed3b4cb41",
+  "name" : "Regression Testcases -Flow from login to Payment",
+  "time" : {
+    "start" : 1629452155993,
+    "stop" : 1629452155993,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "76da7d4ffc36b5f7",
+  "name" : "Regression Testcases - Add two producnt in cart",
+  "time" : {
+    "start" : 1629452155993,
+    "stop" : 1629452155993,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "752c68f09a630e29",
+  "name" : "Automation store ",
+  "time" : {
+    "start" : 1629447560138,
+    "stop" : 1629447560426,
+    "duration" : 288
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea85a972212fb5ab",
+  "name" : "should assert",
+  "time" : {
+    "start" : 1629447971374,
+    "stop" : 1629447980512,
+    "duration" : 9138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

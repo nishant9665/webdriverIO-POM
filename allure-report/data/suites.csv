@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Fri Aug 20 13:37:47 IST 2021","Fri Aug 20 13:37:47 IST 2021","0","","My Login application","","My Login application","Regression Testcases - Special offer ","Regression Testcases - Special offer ",""
+"broken","Fri Aug 20 13:37:47 IST 2021","Fri Aug 20 13:38:09 IST 2021","22591","","My Login application","","My Login application","Regression Testcases - Add two producnt in cart","Regression Testcases - Add two producnt in cart",""
+"passed","Fri Aug 20 15:05:27 IST 2021","Fri Aug 20 15:05:55 IST 2021","28536","","My Login application","","My Login application","Regression Testcases - Special offer ","Regression Testcases - Special offer ",""
+"skipped","Fri Aug 20 15:05:55 IST 2021","Fri Aug 20 15:05:55 IST 2021","0","","My Login application","","My Login application","Regression Testcases -Flow from login to Payment","Regression Testcases -Flow from login to Payment",""
+"skipped","Fri Aug 20 15:05:55 IST 2021","Fri Aug 20 15:05:55 IST 2021","0","","My Login application","","My Login application","Regression Testcases - Add two producnt in cart","Regression Testcases - Add two producnt in cart",""
+"broken","Fri Aug 20 13:49:20 IST 2021","Fri Aug 20 13:49:20 IST 2021","288","","Automation store -Details","","Automation store -Details","Automation store ","Automation store ",""
+"passed","Fri Aug 20 13:56:11 IST 2021","Fri Aug 20 13:56:20 IST 2021","9138","","Homepage","","Homepage","should assert","should assert",""

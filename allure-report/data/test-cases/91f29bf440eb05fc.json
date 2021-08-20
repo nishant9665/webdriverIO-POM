@@ -1,0 +1,58 @@
+{
+  "uid" : "91f29bf440eb05fc",
+  "name" : "Automation store ",
+  "fullName" : "Automation store -Details.Automation store ",
+  "historyId" : "93e9638c60e43c38ad2df471f4eb5993",
+  "time" : {
+    "start" : 1629447256623,
+    "stop" : 1629447256642,
+    "duration" : 19
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "elem.click is not a function",
+  "statusTrace" : "TypeError: elem.click is not a function\n                    at Context.<anonymous> (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\test\\specs\\FullflowScript2.js:16:16)\n                    at Context.executeAsync (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:285:25)\n                    at Context.testFrameworkFnWrapper (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Automation store -Details"
+  }, {
+    "name" : "testClass",
+    "value" : "Automation store -Details"
+  }, {
+    "name" : "testMethod",
+    "value" : "Automation store "
+  }, {
+    "name" : "package",
+    "value" : "Automation store -Details"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91f29bf440eb05fc.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "82ce93f7dfa7fb4e",
+  "name" : "Regression Testcases - Special offer ",
+  "fullName" : "My Login application.Regression Testcases - Special offer ",
+  "historyId" : "d4311634b38dcb23d4566853f20b3c7a",
+  "time" : {
+    "start" : 1629452127450,
+    "stop" : 1629452155986,
+    "duration" : 28536
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Regression Testcases - Special offer "
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82ce93f7dfa7fb4e.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

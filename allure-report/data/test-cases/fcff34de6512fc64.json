@@ -1,0 +1,64 @@
+{
+  "uid" : "fcff34de6512fc64",
+  "name" : "Regression Testcases - Add two producnt in cart",
+  "fullName" : "My Login application.Regression Testcases - Add two producnt in cart",
+  "historyId" : "afdf4c48d4b8aed925a0ffc7492f1264",
+  "time" : {
+    "start" : 1629446867141,
+    "stop" : 1629446889732,
+    "duration" : 22591
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Can't call click on element with selector \"//div[@class='contentpanel']//div[1]//div[2]//a[1]//img[1]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"//div[@class='contentpanel']//div[1]//div[2]//a[1]//img[1]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\webdriverio\\build\\middlewares.js:19:29)\n                    at async Element.wrapCommandFn (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\utils\\build\\shim.js:78:29)\n                    at async HomePage.select_firstItem (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\test\\pageobjects\\HomePage.js:68:9)\n                    at async Context.<anonymous> (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\test\\specs\\example.e2e.js:41:9)\n                    at async Context.executeAsync (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\shim.js:285:16)\n                    at async Context.testFrameworkFnWrapper (C:\\Users\\nishant.narwade\\Desktop\\NIshant\\WebdriverSetUP\\node_modules\\@wdio\\mocha-framework\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Regression Testcases - Add two producnt in cart"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fcff34de6512fc64.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}

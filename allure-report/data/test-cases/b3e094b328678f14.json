@@ -1,0 +1,48 @@
+{
+  "uid" : "b3e094b328678f14",
+  "name" : "Regression Testcases - Special offer ",
+  "fullName" : "My Login application.Regression Testcases - Special offer ",
+  "historyId" : "c9b3f1db5a40f355df78d6a62d9e1672",
+  "time" : {
+    "start" : 1629446867139,
+    "stop" : 1629446867139,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "Regression Testcases - Special offer "
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3e094b328678f14.json",
+  "parameterValues" : [ ]
+}
